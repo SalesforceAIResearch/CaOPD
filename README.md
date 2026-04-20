@@ -1,5 +1,4 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-red.svg)](#python)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 # CaOPD: Calibration-Aware On-Policy Distillation
 
