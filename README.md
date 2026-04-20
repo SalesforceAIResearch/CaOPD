@@ -216,7 +216,7 @@ CaOPD/
 ├── data/                    # Datasets (tool use + science)
 ├── figures/                 # Paper figures
 ├── requirements.txt
-└── LICENSE                  # Apache 2.0
+└── LICENSE                  
 ```
 
 ---
