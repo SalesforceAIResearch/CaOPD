@@ -29,7 +29,7 @@ On-policy distillation (OPD) is an increasingly important paradigm for post-trai
 ## :fire: News & Updates
 
 - **[2026.04]** CaOPD code and datasets are released.
-- **[2026.04]** CaOPD paper is submitted to [COLM 2026](https://colmweb.org/). ArXiv link coming soon.
+- **[2026.04]** CaOPD paper is submitted to [COLM 2026](https://colmweb.org/). ArXiv link is https://arxiv.org/abs/2604.16830.
 
 ---
 
