@@ -14,7 +14,7 @@ Jiaxin Zhang, Xiangyu Peng, Qinglin Chen, Qinyuan Ye, Caiming Xiong, Chien-Sheng
 
 **Salesforce AI Research**
 
-[[Paper]](https://arxiv.org/abs/XXXX.XXXXX)
+[[Paper]](https://arxiv.org/abs/2604.16830)
 
 On-policy distillation (OPD) is an increasingly important paradigm for post-training language models. However, we identify a pervasive **Scaling Law of Miscalibration**: while OPD effectively improves task accuracy, it systematically traps models in severe overconfidence. We trace this failure to an information mismatch — teacher supervision is formed under privileged context available during training, whereas the deployed model must report confidence using only deployment-time information. We propose **CaOPD** (Calibration-Aware On-Policy Distillation), a framework that estimates empirical confidence from model rollouts, replaces self-reported confidence with this student-grounded target, and distills the revised response through the standard self-distillation loss. Experiments across Science Q&A and Tool Use domains show that CaOPD **preserves or improves task accuracy** while **drastically improving calibration**, achieving near-zero overconfidence gaps and strong confidence discrimination.
 
@@ -229,6 +229,7 @@ If you find this work useful, please cite our paper:
 @inproceedings{zhang2026illusion,
   title={The Illusion of Certainty: How On-Policy Distillation Creates Overconfident Language Models},
   author={Zhang, Jiaxin and Peng, Xiangyu and Chen, Qinglin and Ye, Qinyuan and Xiong, Caiming and Wu, Chien-Sheng},
+  arXiv={https://arxiv.org/abs/2604.16830}
   year={2026}
 }
 ```
